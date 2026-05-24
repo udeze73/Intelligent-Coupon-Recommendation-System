@@ -92,6 +92,19 @@ The project follows a complete machine learning pipeline:
 
 ---
 
+## Multi-Model Machine Learning Approach
+A major strength of this project is the implementation of a multi-model machine learning strategy rather than relying on a single algorithm.
+Multiple classification models were trained, evaluated, and compared to identify the best-performing solution for predicting customer coupon acceptance behavior.
+This approach is important because different machine learning algorithms capture patterns differently. Comparing multiple models improves:
+- Model robustness
+- Prediction reliability
+- Generalization performance
+- Business decision confidence
+- Overall model optimization
+The project evaluates the strengths and weaknesses of several algorithms before selecting the most effective model.
+
+---
+
 ## Machine Learning Models
 Some models used include:
 - Logistic Regression
