@@ -108,6 +108,6 @@ The final model can help businesses:
 ## Author
 Joshua Udeze
 
-MBA Finance & Investment | Data Science & Machine Learning Enthusiast
-Email: Udezejoshua@gmail.com
-LinkedIn: www.linkedin.com/in/joshua-udeze-394531154
+- MBA Finance & Investment | Data Science & Machine Learning Enthusiast
+- Email: Udezejoshua@gmail.com
+- LinkedIn: www.linkedin.com/in/joshua-udeze-394531154
