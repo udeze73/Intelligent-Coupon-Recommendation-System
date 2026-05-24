@@ -113,7 +113,6 @@ Some models used include:
 - Decision Tree
 - XGBoost (optional)
 - Gradient Boosting
-
 ---
 
 ## Evaluation Metrics
@@ -123,14 +122,12 @@ The models were evaluated using:
 - Recall
 - F1 Score
 - Confusion Matrix
-
 ---
 
 ## Key Insights
 - Customer demographics significantly influence coupon acceptance.
 - Time and destination affect customer behavior patterns.
 - Personalized recommendations improve marketing effectiveness.
-
 ---
 
 ## Project Outcome
@@ -139,6 +136,7 @@ The final model can help businesses:
 - increase coupon conversion rates
 - reduce marketing waste
 - enhance customer experience
+---
 
 ## Portfolio Value
 This project demonstrates practical skills in:
@@ -149,22 +147,6 @@ This project demonstrates practical skills in:
   - Predictive Modeling
   - Data Preprocessing Pipelines
   - Business Intelligence
----
-
-## Example Use Cases
-This type of system can be applied in:
-  - E-commerce platforms
-  - Food delivery applications
-  - Retail recommendation systems
-  - Digital marketing campaigns
-  - Customer targeting systems
----
-
-## Future Improvements
-- Deploy model using Streamlit
-- Build real-time recommendation API
-- Improve recommendation personalization
-- Experiment with deep learning models
 ---
 
 ## Author
