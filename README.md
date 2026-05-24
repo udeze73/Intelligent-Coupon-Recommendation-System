@@ -5,11 +5,11 @@ This project develops a machine learning-powered recommendation and prediction s
 
 The project combines:
 
-Data preprocessing
-Feature engineering
-Imbalanced data handling
-Machine learning pipelines
-Model comparison and evaluation
+- Data preprocessing
+- Feature engineering
+- Imbalanced data handling
+- Machine learning pipelines
+- Model comparison and evaluation
 
 The final solution helps businesses improve targeted marketing campaigns and customer engagement through data-driven coupon recommendations.
 
@@ -20,10 +20,10 @@ Businesses frequently send promotional coupons to customers without understandin
 
 This leads to:
 
-Low conversion rates
-Poor customer engagement
-Wasted marketing resources
-Inefficient recommendation systems
+- Low conversion rates
+- Poor customer engagement
+- Wasted marketing resources
+ Inefficient recommendation systems
 
 This project solves the problem by building a predictive machine learning model capable of identifying customers who are more likely to accept coupon recommendations.
 
@@ -65,8 +65,8 @@ The project follows a complete machine learning pipeline:
 6. Feature Engineering
    Several engineered features were created to improve predictive performance.
    Examples:
-     - Social lifestyle interaction features
-     - Restaurant frequency combinations
+   - Social lifestyle interaction features
+   - Restaurant frequency combinations
      - Time-based features
      - Weather-destination interaction features
      - Income range extraction
