@@ -101,6 +101,7 @@ This approach is important because different machine learning algorithms capture
 - Generalization performance
 - Business decision confidence
 - Overall model optimization
+  
 The project evaluates the strengths and weaknesses of several algorithms before selecting the most effective model.
 
 ---
