@@ -56,13 +56,29 @@ The dataset contains customer demographic and contextual information such as:
 The project follows a complete machine learning pipeline:
 
 1. Data Cleaning
+   - Removed duplicate records
+   - Dropped columns with excessive missing values
+   - Handled inconsistent categorical values
 3. Missing Value Handling
-4. Exploratory Data Analysis (EDA)
-5. Feature Engineering
-6. Encoding Categorical Variables
-7. Feature Scaling
-8. Model Training
-9. Model Evaluation
+   - Used SimpleImputer with most_frequent strategy to preserve dataset size.
+5. Exploratory Data Analysis (EDA)
+6. Feature Engineering
+   Several engineered features were created to improve predictive performance.
+   Examples:
+     - Social lifestyle interaction features
+     - Restaurant frequency combinations
+     - Time-based features
+     - Weather-destination interaction features
+     - Income range extraction
+     - Expiration conversion to hours
+7. Data Transformation
+     - One-hot encoding for nominal categorical variables
+     - Ordinal encoding for ordered categories
+     - Numerical scaling using StandardScaler
+8. Imbalanced Data Handling
+   Used SMOTE to address class imbalance and improve model learning.
+9. Model Training
+10. Model Evaluation
 
 ---
 
@@ -110,6 +126,24 @@ The final model can help businesses:
 - reduce marketing waste
 - enhance customer experience
 
+## Portfolio Value
+This project demonstrates practical skills in:
+  - Machine Learning
+  - Feature Engineering
+  - Recommendation Systems
+  - Customer Analytics
+  - Predictive Modeling
+  - Data Preprocessing Pipelines
+  - Business Intelligence
+---
+
+## Example Use Cases
+This type of system can be applied in:
+  - E-commerce platforms
+  - Food delivery applications
+  - Retail recommendation systems
+  - Digital marketing campaigns
+  - Customer targeting systems
 ---
 
 ## Future Improvements
@@ -117,7 +151,6 @@ The final model can help businesses:
 - Build real-time recommendation API
 - Improve recommendation personalization
 - Experiment with deep learning models
-
 ---
 
 ## Author
