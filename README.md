@@ -1,21 +1,31 @@
 # Intelligent Coupon Recommendation System
 
 ## Project Overview
-This project develops a machine learning model that predicts whether a customer will accept or reject a coupon recommendation based on demographic, environmental, and behavioral factors.
+This project develops a machine learning-powered recommendation and prediction system that determines whether a customer is likely to accept or reject a coupon offer based on demographic, behavioral, and contextual factors.
 
-The system helps businesses improve targeted marketing campaigns and customer engagement through personalized coupon recommendations.
+The project combines:
+
+Data preprocessing
+Feature engineering
+Imbalanced data handling
+Machine learning pipelines
+Model comparison and evaluation
+
+The final solution helps businesses improve targeted marketing campaigns and customer engagement through data-driven coupon recommendations.
 
 ---
 
 ## Business Problem
-Businesses often struggle to determine which customers are likely to respond positively to promotional offers.
+Businesses frequently send promotional coupons to customers without understanding whether those customers are likely to respond positively.
 
-Sending irrelevant coupons can:
-- reduce customer engagement
-- waste marketing resources
-- lower conversion rates
+This leads to:
 
-This project solves that problem by building a predictive system capable of identifying customers who are more likely to accept coupon offers.
+Low conversion rates
+Poor customer engagement
+Wasted marketing resources
+Inefficient recommendation systems
+
+This project solves the problem by building a predictive machine learning model capable of identifying customers who are more likely to accept coupon recommendations.
 
 ---
 
@@ -24,12 +34,17 @@ The dataset contains customer demographic and contextual information such as:
 - Age
 - Occupation
 - Income
+- Education
+- Passenger type
 - Marital status
 - Weather conditions
 - Destination
 - Time of day
 - Passenger type
 - Coupon type
+- Restaurant visit frequency
+- Coffee house visit frequency
+- Bar visit frequency
 
 ### Target Variable
 - `Y = 1` → Customer accepted the coupon
@@ -41,13 +56,13 @@ The dataset contains customer demographic and contextual information such as:
 The project follows a complete machine learning pipeline:
 
 1. Data Cleaning
-2. Missing Value Handling
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Encoding Categorical Variables
-6. Feature Scaling
-7. Model Training
-8. Model Evaluation
+3. Missing Value Handling
+4. Exploratory Data Analysis (EDA)
+5. Feature Engineering
+6. Encoding Categorical Variables
+7. Feature Scaling
+8. Model Training
+9. Model Evaluation
 
 ---
 
