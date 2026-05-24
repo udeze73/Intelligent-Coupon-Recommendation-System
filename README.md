@@ -65,12 +65,12 @@ The project follows a complete machine learning pipeline:
 6. Feature Engineering
    Several engineered features were created to improve predictive performance.
    Examples:
-   - Social lifestyle interaction features
-   - Restaurant frequency combinations
-     - Time-based features
-     - Weather-destination interaction features
-     - Income range extraction
-     - Expiration conversion to hours
+    - Social lifestyle interaction features
+    - Restaurant frequency combinations
+    - Time-based features
+    - Weather-destination interaction features
+    - Income range extraction
+    - Expiration conversion to hours
 7. Data Transformation
      - One-hot encoding for nominal categorical variables
      - Ordinal encoding for ordered categories
